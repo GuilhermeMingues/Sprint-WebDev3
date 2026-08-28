@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# JOVI — Smartphone Brasil
 
-## Getting Started
+Transcrição da Landing Page feita em html e css no projeto da matéria de front end para o projeto em React da matéria de Web Dev utilizando tudo que aprendemos durante as aulas, seguindo todas as orientações dadas.
 
-First, run the development server:
+🔗 **Deploy:** [sprint-web-dev3.vercel.app](https://sprint-web-dev3.vercel.app)
+🔗 **Repositório:** [github.com/GuilhermeMingues/Sprint-WebDev3](https://github.com/GuilhermeMingues/Sprint-WebDev3)
+
+## Tecnologias utilizadas
+
+- [Next.js](https://nextjs.org/) 16 (App Router)
+- [React](https://react.dev/) 19
+- CSS puro, organizado com variáveis seguindo a paleta de cores da marca JOVI
+- [ESLint](https://eslint.org/) para padronização de código
+- Deploy contínuo via [Vercel](https://vercel.com/)
+
+- Formatação dos códigos com a extensão Format Prettier
+
+## Como instalar as dependências
+
+Com o [Node.js](https://nodejs.org/) instalado, clone o repositório e rode dentro da pasta do projeto:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Como executar o projeto
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Ambiente de desenvolvimento (com hot reload):
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+# npm run dev
+```
 
-## Learn More
+Depois, abra [http://localhost:3000](http://localhost:3000) no navegador.
 
-To learn more about Next.js, take a look at the following resources:
+Para gerar a versão de produção localmente:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+npm run build
+npm run start
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Usuários e senhas de teste
 
-## Deploy on Vercel
+O projeto não possui autenticação. Todas as seções são públicas e não exigem login ou usuário de teste.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Estrutura do projeto
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+A aplicação é dividida em componentes funcionais, organizados em `app/components/`, cada um responsável por uma seção da página (Header, Hero, PhoneArea, Solution, Audience, Gallery, Simulator, Team, Contato, Footer). O `app/page.js` atua como componente pai, importando e renderizando cada seção na ordem em que aparecem na página.
+
+### Funcionalidades
+
+- **Simulador de configuração** (seção "Monte o seu JOVI"): o usuário escolhe armazenamento e cor do aparelho e calcula um preço simulado. O cálculo usa `Math.random()` (para gerar um desconto regional simulado entre 5% e 15%) e `Math.round()` (para arredondamento). A última escolha do usuário e um histórico das últimas 5 simulações ficam salvos no `localStorage` do navegador, persistindo entre recarregamentos de página.
+
+## Uso de Inteligência Artificial no projeto
+
+Utilizamos o Claude em ideias no processo criativo como dicas e sugestões na estilização no CSS. Em revisão de erros e organização do projeto e também em explicação de alguns momentos que havia dúvidas referente a alguma funcionalidade. Diante disso o projeto em React foi revisado e feito a mãos.
+
+## Equipe
+
+Os nomes completos e RMs dos integrantes estão no arquivo [`INTEGRANTES.txt`](./INTEGRANTES.txt).
