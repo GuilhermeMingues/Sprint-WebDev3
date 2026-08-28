@@ -554,6 +554,246 @@ ul {
   font-size: 12px;
 }
 
+
+/* ==== CONTACT ==== */
+
+
+.contact {
+  border-top: 1px solid var(--color-border);
+}
+ 
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 60px;
+}
+ 
+.contact-form {
+  display: grid;
+  gap: 20px;
+}
+ 
+.form-row {
+  display: grid;
+  gap: 8px;
+}
+ 
+.form-row label {
+  font-size: 13px;
+  color: var(--color-text-faint);
+  letter-spacing: 1px;
+}
+ 
+.form-row input,
+.form-row textarea {
+  background: var(--color-bg-alt);
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+ 
+  padding: 14px 16px;
+ 
+  color: var(--color-text);
+  font-family: inherit;
+  font-size: 14px;
+ 
+  transition: 0.3s;
+}
+ 
+.form-row input::placeholder,
+.form-row textarea::placeholder {
+  color: var(--color-text-faint);
+}
+ 
+.form-row input:focus,
+.form-row textarea:focus {
+  outline: none;
+  border-color: var(--color-accent);
+}
+ 
+.form-row textarea {
+  resize: vertical;
+}
+ 
+.contact-form .button {
+  justify-self: start;
+  border: none;
+  cursor: pointer;
+}
+ 
+.contact-info {
+  border: 1px solid var(--color-border);
+  background: var(--color-bg-alt);
+  padding: 35px;
+ 
+  display: grid;
+  gap: 20px;
+  align-content: start;
+}
+ 
+.contact-info h3 {
+  font-size: 18px;
+}
+ 
+.contact-info ul {
+  display: grid;
+  gap: 16px;
+}
+ 
+.contact-info li {
+  color: var(--color-text-muted);
+  font-size: 14px;
+ 
+  padding-top: 16px;
+  border-top: 1px solid var(--color-border);
+}
+ 
+.contact-info li:first-child {
+  border-top: none;
+  padding-top: 0;
+}
+ 
+.contact-info li span {
+  display: block;
+  color: var(--color-text-faint);
+  font-size: 11px;
+  letter-spacing: 2px;
+  margin-bottom: 4px;
+}
+
+
+/* ==== SIMULATOR ==== */
+
+
+.simulator {
+  border-top: 1px solid var(--color-border);
+}
+ 
+.simulator-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+ 
+.simulator-options {
+  display: grid;
+  gap: 25px;
+  align-content: start;
+}
+ 
+.option-group h4 {
+  font-size: 13px;
+  color: var(--color-text-faint);
+  letter-spacing: 2px;
+  margin-bottom: 12px;
+}
+ 
+.option-buttons {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+ 
+.option-button {
+  border: 1px solid var(--color-border);
+  background: transparent;
+  color: var(--color-text-muted);
+ 
+  padding: 10px 18px;
+  border-radius: 30px;
+  font-size: 13px;
+  font-family: inherit;
+  cursor: pointer;
+ 
+  transition: 0.3s;
+}
+ 
+.option-button:hover {
+  border-color: var(--color-accent);
+  color: var(--color-text);
+}
+ 
+.option-button.active {
+  background: var(--color-accent);
+  border-color: var(--color-accent);
+  color: white;
+}
+ 
+.simulator-options > .button {
+  justify-self: start;
+  border: none;
+  cursor: pointer;
+}
+ 
+.simulator-result {
+  border: 1px solid var(--color-border);
+  background: var(--color-bg-alt);
+  padding: 35px;
+ 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;
+}
+ 
+.simulator-placeholder {
+  color: var(--color-text-faint);
+  font-size: 14px;
+}
+ 
+.simulator-result > span {
+  font-size: 12px;
+  letter-spacing: 2px;
+  color: var(--color-text-faint);
+}
+ 
+.simulator-result > strong {
+  font-size: 40px;
+  color: var(--color-accent);
+}
+ 
+.simulator-result > p {
+  color: var(--color-text-muted);
+  font-size: 13px;
+}
+ 
+.simulator-history {
+  margin-top: 15px;
+  border-top: 1px solid var(--color-border);
+  padding-top: 15px;
+}
+ 
+.simulator-history-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+ 
+.simulator-history-header h4 {
+  font-size: 13px;
+  color: var(--color-text-faint);
+}
+ 
+.simulator-history-header button {
+  background: none;
+  border: none;
+  color: var(--color-accent);
+  font-size: 12px;
+  cursor: pointer;
+  font-family: inherit;
+}
+ 
+.simulator-history ul {
+  display: grid;
+  gap: 8px;
+}
+ 
+.simulator-history li {
+  font-size: 13px;
+  color: var(--color-text-muted);
+}
+ 
+
 /* ===== FOOTER ===== */
 
 .footer {

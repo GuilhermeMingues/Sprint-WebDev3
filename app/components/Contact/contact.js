@@ -1,13 +1,13 @@
 "use client";
 
-function Contato() {
+function Contact() {
   return (
     <section id="contato" className="section contact">
       <div className="section-title">
         <span>05 — CONTATO</span>
 
         <h2>
-          Fale com a<strong>equipe JOVI.</strong>
+          Fale com a <strong>equipe JOVI.</strong>
         </h2>
 
         <p>
@@ -41,7 +41,7 @@ function Contato() {
           </div>
 
           <div className="form-row">
-            <label htmlfor="mensagem">Mensagem</label>
+            <label htmlFor="mensagem">Mensagem</label>
             <textarea
               id="mensagem"
               name="mensagem"
@@ -79,4 +79,4 @@ function Contato() {
   );
 }
 
-export default Contato;
+export default Contact;

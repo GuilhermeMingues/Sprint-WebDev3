@@ -13,7 +13,7 @@ function Audience() {
         <span>02 — PÚBLICO-ALVO</span>
 
         <h2>
-          Para quem é a<strong>JOVI?</strong>
+          Para quem é a <strong>JOVI?</strong>
         </h2>
 
         <p>

@@ -5,9 +5,10 @@ import Solution from "./components/Solution/solution";
 import Audience from "./components/Audience/audience";
 import Gallery from "./components/Gallery/gallery";
 import Team from "./components/Team/team";
+import Contact from "./components/Contact/contact";
+import Simulator from "./components/Simulator/simulator";
 import Footer from "./components/Footer/footer";
-import Contato from "./components/Contato/contato";
-import Simulator from "./Simulator/simulator";
+
 
 export default function Home() {
   return (
@@ -19,9 +20,9 @@ export default function Home() {
       <Audience />
       <Gallery />
       <Team />
-      <Footer />
-      <Contato />
+      <Contact />
       <Simulator />
+      <Footer />
     </main>
   );
 }

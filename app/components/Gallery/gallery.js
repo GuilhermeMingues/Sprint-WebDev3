@@ -8,7 +8,7 @@ function Gallery() {
 
         <h2>
           Conheça o conceito
-          <strong>JOVI.</strong>
+          <strong> JOVI.</strong>
         </h2>
 
         <p>

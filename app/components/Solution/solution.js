@@ -10,7 +10,7 @@ function Solution() {
 
                 <h2>
                     Uma proposta criada
-                    <strong>para o Brasil.</strong>
+                    <strong> para o Brasil.</strong>
                 </h2>
 
                 <p>
