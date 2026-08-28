@@ -7,6 +7,7 @@ import Gallery from "./components/Gallery/gallery";
 import Team from "./components/Team/team";
 import Footer from "./components/Footer/footer";
 import Contato from "./components/Contato/contato";
+import Simulator from "./Simulator/simulator";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <Team />
       <Footer />
       <Contato />
+      <Simulator />
     </main>
   );
 }
