@@ -6,6 +6,7 @@ import Audience from "./components/Audience/audience";
 import Gallery from "./components/Gallery/gallery";
 import Team from "./components/Team/team";
 import Footer from "./components/Footer/footer";
+import Contato from "./components/Contato/contato";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <Gallery />
       <Team />
       <Footer />
+      <Contato />
     </main>
   );
 }

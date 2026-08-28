@@ -4,7 +4,10 @@ function Header() {
   return (
     <header className="header">
       <nav className="navbar">
-        <div className="logo">JOVI</div>
+        <div className="logo">
+          <img src="/jovi-icon.jpeg" alt="JOVI" className="logo-icon" />
+  
+        </div>
 
         <ul className="nav-links">
           <li>

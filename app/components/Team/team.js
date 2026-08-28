@@ -8,7 +8,7 @@ function Team() {
 
         <h2>
           Quem desenvolveu
-          <strong>a Eletric Minds?</strong>
+          <strong> a Eletric Minds?</strong>
         </h2>
 
         <p>
